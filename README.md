@@ -1,5 +1,5 @@
 # Rubik kockás applikáció
-Itt található a Rubik-kockás applikáció a Prog2-main mappában. Aprogram linuxon, ubuntu operációs rendszeren működik.
+Itt található a Rubik-kockás applikáció a Prog2-main mappában. A program linuxon, ubuntu operációs rendszeren működik.
 A program fő részét a kocka3.cpp tartalmazza.
 Ahhoz, hogy le lehessen futtatni az fltk-t le kell tölteni a következő paranccsal: sudo apt-get install libfltk1.1-dev
 Ezt követően a programot a következő paranccsal lehet lefuttatni: g++ kocka3.cpp Graph.cpp Window.cpp GUI.cpp -o kocka `fltk-config --ldflags --use-images`
